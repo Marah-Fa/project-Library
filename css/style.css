@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.home-page{
+    height: 100vh;
+    background-image: url(../images/293afca3658b6bbaa857d24c39759b13.png);
+    background-size: 100% 100%;
+    display:grid;
+    justify-content: end;
+    align-items: start;
+    padding: 30px;
+}
+.address{
+    border: 3.5px solid rgba(0, 0, 0, 0.486);
+    background-color: rgba(95, 158, 160, 0.479);
+     padding: 15px;
+     border-radius: 8PX;
+    /* position: absolute;
+    left: 65%;
+    top: 3%;  */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.address h1{
+    /* font-weight: bolder; */
+    font-size: 50px;
+    color: rgb(252, 240, 225);
+}
+.address img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+   
+}
+.address:hover{
+    cursor: pointer;
+    box-shadow: 4px 5px 5px 4px rgba(191, 196, 217, 0.882),5px 1px 5px 1px white ;
+}
+
+.account-link{
+    background-color: rgba(55, 109, 109, 0.623);
+    border: 3px solid rgba(0, 0, 0, 0.336);
+    /* position: absolute;
+    left: 60%;
+    top: 40%; */
+    padding: 20px;
+    border-radius: 8PX;
+
+
+}
+
+.account-link p{
+    color:white;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: x-large;
+}
+.account-link a{
+    
+    font-size: 25px ;
+    text-decoration: none;
+    color: rgb(117, 244, 112);
+    border: 2px solid rgba(219, 219, 218, 0.623);
+    padding: 5px;
+    border-radius: 8PX;
+
+
+    
+}
+.account-link a:hover{
+    text-transform: uppercase;
+    transition: 0.5s;
+    font-size: xx-large;
+}
+ 
+
